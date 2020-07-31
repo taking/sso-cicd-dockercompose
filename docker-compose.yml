@@ -115,7 +115,23 @@ services:
       - ./.env
       #JDBC_PARAMS: "ssl=true"
     ports:
-      - 10010:8080
+      - '10010:8080'
     depends_on:
       - postgres
+    restart: unless-stopped
+#
+#
+  redmine:
+    image: redmine
+    container_name: 'redmine'
+    ports:
+      - '10015:3000'
+    volumes:
+      - './redmine_data:/bitnami'
+    env_file:
+      - ./.env
+    environment:
+      - REDMINE_LANGUAGE=ko
+    depends_on:
+      - mariadb
     restart: unless-stopped

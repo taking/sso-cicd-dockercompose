@@ -4,17 +4,17 @@ mariadb
 
 postgres
 
-keyclock - 10010 port
+keyclock - http 10010 port
 
-Nextcloud - 10011 port
+Nextcloud - https 10011 port
 
-phpMyAdmin - 10012 port
+phpMyAdmin - http 10012 port
 
-jenkins-jdk8-mvn - 10013 port
+jenkins-jdk8-mvn - http 10013 port
 
-sonarqube - 10014 port
+sonarqube - http 10014 port
 
-redmine- - 10015 port
+redmine- - http 10015 port
 
 # How-to
 ```

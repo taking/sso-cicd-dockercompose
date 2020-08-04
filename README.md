@@ -15,3 +15,5 @@ phpMyAdmin - 10012 port
 jenkins-jdk8-mvn - 10013 port
 
 sonarqube - 10014 port
+
+redmine- - 10015 port

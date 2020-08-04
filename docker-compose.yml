@@ -1,7 +1,7 @@
 # taking
 # github.com/taking
 #
-version: '3.8'
+version: '3.3'
 services:
   mariadb:
     image: 'linuxserver/mariadb:latest'

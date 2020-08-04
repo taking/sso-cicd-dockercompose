@@ -2,8 +2,6 @@
 
 mariadb
 
-redis
-
 postgres
 
 keyclock - 10010 port

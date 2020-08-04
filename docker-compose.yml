@@ -122,7 +122,7 @@ services:
 #
 #
   redmine:
-    image: redmine
+    image: 'docker.io/bitnami/redmine:4-debian-10'
     container_name: 'redmine'
     ports:
       - '10015:3000'
